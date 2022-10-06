@@ -1,0 +1,144 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+input:focus {outline: none;}
+input::placeholder {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.outline {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 760px;
+}
+.outline .main-logo {
+    width: 140px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 144px;
+    margin-bottom: 100px;
+    background-color: rgb(82, 177, 255);
+}
+.outline .login-input {
+    width: 320px;
+    height: 96px;
+    margin: 0 auto;
+}
+.outline .login-input .id {
+    width: 320px;
+    height: 48px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 229, 233);
+}
+.outline .login-input .id input,
+.outline .login-input .pw input {
+    border: none;
+    width: 218px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+
+}
+.outline .login-input .pw {
+    width: 320px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 229, 233);
+}
+.focusBlue {
+    border: 1px solid rgb(5, 150, 255);
+}
+.outline .warning {
+    width: 200px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: rgb(236, 97, 82);
+    margin-bottom: 20px;
+    font-family: 'SpoqaHanSansNeo-Medium';
+    margin-top: 10px;
+}
+.outline .warning p {
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+}
+.outline .login-btn {
+    width: 320px;
+    height: 48px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.outline .login-btn:hover {
+    background-color: rgb(5, 150, 255);
+}
+.outline .login-btn p {
+    width: 200px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-family: 'SpoqaHanSansNeo-Bold';
+}
+.outline .login-help {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    width: 280px;
+    margin: 0 auto;
+    font-size: 14px;
+    overflow: hidden;
+}
+.outline .login-help ul {
+    width: 255px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.outline .login-help ul li {
+    float: left;
+    color: rgb(136, 136, 136);
+    border-right: 1px solid rgb(226, 229, 233);
+    line-height: 15px;
+}
+.outline .login-help ul li p {
+    cursor: pointer;
+}
+.outline .login-help ul li:nth-child(1),
+.outline .login-help ul li:nth-child(2) {
+    padding-right: 12px;
+}
+.outline .login-help ul li:nth-child(2),
+.outline .login-help ul li:nth-child(3) {
+    padding-left: 12px;
+}
+.outline .login-help ul li:last-child {
+    padding-right: none;
+    border-right: none;
+}

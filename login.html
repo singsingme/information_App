@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="outline">
+            <div class="main-logo">로고이미지</div>
+            <div class="login-input">
+                <div class="id">
+                    <input type="text" placeholder="이메일을 입력해 주세요" onclick="focusInput();">
+                </div>
+                <div class="pw">
+                    <input type="password" placeholder="패스워드를 입력해 주세요" onclick="focusInput();">
+                    <span></span>
+                </div>
+            </div>
+            <div class="warning">
+                <p><span>!</span>계정 및 비밀번호를 확인해주세요</p>
+            </div>
+            <div class="login-btn">
+                <p>로그인</p>
+            </div>
+            <div class="login-help">
+                <ul>
+                    <li><p>아이디 찾기</p></li>
+                    <li><p>비밀번호 찾기</p></li>
+                    <li><p>회원가입</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script>
+
+    const idFocus = document.querySelector('.id');
+    const pwFocus = document.querySelector('.pw');
+
+    idFocus.addEventListener('click', function() {
+        idFocus.style.cssText = "border-color: rgb(5, 150, 255);"
+        pwFocus.style.cssText = "border-color: rgb(226, 229, 233);"
+    });
+    pwFocus.addEventListener('click', function() {
+        pwFocus.style.cssText = "border-color: rgb(5, 150, 255);"
+        idFocus.style.cssText = "border-color: rgb(226, 229, 233);"
+    });
+
+</script>
+</html>
